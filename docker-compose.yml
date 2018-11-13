@@ -2,7 +2,7 @@ version: "3"
 services:
   swagger:
     environment:
-      - SWAGGER_JSON=/opt/swagger/swagger.yml
+      - SWAGGER_JSON=/opt/swagger/swagger.yaml
     image: swaggerapi/swagger-ui
     volumes:
       - $PWD/doc:/opt/swagger
