@@ -19,3 +19,7 @@ $ docker-compose up -d
 
 访问**localhost:2222**打开swagger编辑器
 访问**localhost:2345**打开swagger在线文档
+
+## 另外
+
+由于swagger.yaml直接挂载与docker容器内 所以修改后无需重新部署 直接刷新swagger在线文档即可查看更新
